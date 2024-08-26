@@ -1,0 +1,77 @@
+.container > main > .benner-image {
+    width: 100%;
+    height: 414px;
+    padding: var(--padd);
+    background-color: var(--banner-color);
+    box-shadow: 0px 2px 20px black;
+    position: relative;
+}
+.container > main > .benner-image > .image{
+    width: 100%;
+    height: 100%;   
+    animation: imageRender 12s linear infinite;
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+@keyframes imageRender {
+    0%{
+        background-image: url(/AcProject/assets/img/benner1.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(/AcProject/assets/img/benner2.jpg);
+        background-size: cover;
+    }
+    70%{
+        background-image: url(/AcProject/assets/img/benner3.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(/AcProject/assets/img/benner1.jpg);
+        background-size: cover;
+    }
+}
+.container > main > .icon-image{
+    width: 100%;
+    background-color:var(--menu-color);
+}
+.container > main > .icon-image > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 80px 0px;
+}
+.container > main > .icon-image > ul > li > a > img{
+   padding-bottom: 20px;
+   width: 40px;
+   height: 60px;
+}
+.container > main > .icon-image > ul > li:first-child::after,
+.container > main > .icon-image > ul > li:nth-child(2)::after,
+.container > main > .icon-image > ul > li:nth-child(3)::after{
+    content: "";
+    position:absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    right: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.container > main > .icon-image > ul > li:nth-child(3)::after{
+    right: 45px;
+}
+.container > main > .icon-image > ul > li:nth-child(2)::after{
+    right: 18px;
+}
+.container > main > .icon-image > ul > li {
+    text-align: center;
+    margin: 0px 30px;
+    position: relative;
+}
+.container > main > .icon-image > ul > li > a {
+    font-size: 14px;
+    font-weight: 600;
+}
+.container > main > .icon-image > ul > li > a:hover{
+    text-decoration: underline;
+}

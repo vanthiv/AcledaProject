@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container > main > .row-card {
+  width: 100%;
+  padding: 40px 180px;
+  background-color: var(--body-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container > main > .row-card > .card {
+  width: 47%;
+  /* height: 550px; */
+  margin: 20px 0px;
+  text-align: center;
+}
+.container > main > .row-card > .card > img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.container > main > .row-card > .card > a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-text);
+  font-size: 15.2px;
+}
+.container > main > .row-card > .card > a:hover {
+  text-decoration: underline;
+  color: white;
+}

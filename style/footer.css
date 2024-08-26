@@ -1,0 +1,104 @@
+.container > footer {
+  width: 100%;
+  /* height: 90vh; */
+  /* background-color: red; */
+}
+.container > footer > .row-card {
+  display: flex;
+}
+.container > footer > .row-card > .card {
+  width: 25%;
+  padding: 25px;
+  text-align: center;
+  border-right: 1px solid #555;
+  background-color: gray;
+}
+.container > footer > .row-card > .card > img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.container > footer > .row-card > .card > p,
+.container > footer > .row-card > .card > p > a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 15.2px;
+  text-align: start;
+  line-height: 25px;
+}
+.container > footer > .row-card > .card > p > a {
+  font-weight: 700;
+}
+.container > footer > .row-card > .card > p > a:hover {
+  text-decoration: underline;
+}
+.container > footer > .about-ac {
+  width: 100%;
+  background-color: var(--menu-color);
+  /* height: 100%; */
+}
+.container > footer > .about-ac > .detail {
+  width: 50%;
+  margin: auto;
+  padding: 60px 0px;
+}
+.container > footer > .about-ac > .detail > ul {
+  display: flex;
+  justify-content: center;
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  list-style: none;
+}
+.container > footer > .about-ac > .detail > ul:nth-child(2) {
+  margin: 25px 0px;
+  color: white;
+}
+.container > footer > .about-ac > .detail > ul > li {
+  padding: 0px 15px;
+}
+.container > footer > .about-ac > .detail > ul > li > a:hover{
+  text-decoration: underline;
+}
+.container > footer > .about-ac > .detail > .achievment {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.container > footer > .about-ac > .detail > .achievment > img {
+  width: 170px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+.container > footer > .about-ac > .detail > .socail {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.container > footer > .about-ac > .detail > .socail > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+.container > footer  > .about-ac > .detail > .socail > ul > li > img {
+  width: 38px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid rgba(128, 128, 128, 0.286);
+  /* border: none; */
+  margin: 0px 3px;
+  cursor: pointer;
+
+}
+.container > footer > .about-ac > .detail > .socail > ul > li > img:hover {
+  border: 1px solid white;
+}
