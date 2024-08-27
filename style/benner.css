@@ -14,11 +14,11 @@
 }
 @keyframes imageRender {
     0%{
-        background-image: url(assets/img/benner1.jpg);
+        background-image: url(/assets/img/benner1.jpg);
         background-size: cover;
     }
     40%{
-        background-image: url(assets/img/benner2.jpg);
+        background-image: url(/assets/img/benner2.jpg);
         background-size: cover;
     }
     70%{
